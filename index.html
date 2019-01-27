@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Match 3</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .board {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+        align-items: center;
+        margin: 0 auto;
+      }
+      .header {
+        height: 10vh;
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0.5rem;
+      }
+      .cell {
+        box-sizing: border-box;
+        flex: 1 0 10%;
+        height: 8vh;
+        border: 4px white solid;
+      }
+      .selected {
+        border-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="index"></div>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
