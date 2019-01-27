@@ -1,0 +1,23 @@
+{
+  "name": "reason-match3",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0",
+    "webpack": "webpack -w",
+    "webpack:prod": "webpack -p"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "reason-react": "^0.5.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.18",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
